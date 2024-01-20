@@ -132,6 +132,44 @@ footer{
 footer p{
     margin: 0;
 }
+@media only screen and (max-width: 600px) {
+    .head h1 {
+        font-size: 30px; /* Adjust the font size for small screens */
+    }
+
+    .ramji {
+        height: 250px; /* Adjust the height for small screens */
+        max-width: 100%;
+        margin: 2% 0; /* Adjust the margin for small screens */
+    }
+
+    .ramji:hover img {
+        transform: translate(150px, -30px) scale(1.2); /* Adjust for small screens */
+    }
+
+    .cont {
+        width: 80%; /* Adjust the width for small screens */
+        transform: translate(10%);
+    }
+
+    .ramji img {
+        width: 150px; /* Adjust the image width for small screens */
+        height: auto;
+    }
+
+    .countdown {
+        font-size: 2rem; /* Adjust the font size for small screens */
+    }
+
+    .timer .countdown-container {
+        font-size: 1.5rem; /* Adjust the font size for small screens */
+    }
+
+    .timer .countdown-container span {
+        font-size: 0.8rem; /* Adjust the font size for small screens */
+    }
+}
+
 /*@keyframes mark{
     0%{
         transform: translateX(0%);
