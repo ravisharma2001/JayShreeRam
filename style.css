@@ -132,40 +132,4 @@ footer{
 footer p{
     margin: 0;
 }
-@media only screen and (max-width: 600px) {
-    .head h1 {
-        font-size: 30px; /* Adjust the font size for small screens */
-    }
-
-    .ramji {
-        height: auto;
-        max-width: 100%;
-        margin: 2% 0; /* Adjust the margin for small screens */
-    }
-
-    .ramji:hover img {
-        transform: none; /* Disable hover effect on small screens */
-    }
-
-    .cont {
-        width: 100%; /* Adjust the width for small screens */
-        transform: none;
-    }
-
-    .ramji img {
-        width: 100%; /* Adjust the image width for small screens */
-        height: auto;
-    }
-
-    .countdown {
-        font-size: 2rem; /* Adjust the font size for small screens */
-    }
-
-    .timer .countdown-container {
-        font-size: 1.5rem; /* Adjust the font size for small screens */
-    }
-
-    .timer .countdown-container span {
-        font-size: 0.8rem; /* Adjust the font size for small screens */
-    }
-}
+https://ravisharma2001.github.io/JayShreeRam/
