@@ -138,22 +138,22 @@ footer p{
     }
 
     .ramji {
-        height: 250px; /* Adjust the height for small screens */
+        height: auto;
         max-width: 100%;
         margin: 2% 0; /* Adjust the margin for small screens */
     }
 
     .ramji:hover img {
-        transform: translate(150px, -30px) scale(1.2); /* Adjust for small screens */
+        transform: none; /* Disable hover effect on small screens */
     }
 
     .cont {
-        width: 80%; /* Adjust the width for small screens */
-        transform: translate(10%);
+        width: 100%; /* Adjust the width for small screens */
+        transform: none;
     }
 
     .ramji img {
-        width: 150px; /* Adjust the image width for small screens */
+        width: 100%; /* Adjust the image width for small screens */
         height: auto;
     }
 
@@ -167,23 +167,5 @@ footer p{
 
     .timer .countdown-container span {
         font-size: 0.8rem; /* Adjust the font size for small screens */
-    }
-}
-
-/*@keyframes mark{
-    0%{
-        transform: translateX(0%);
-    }
-    25%{
-        transform: translateX(100%);
-    }
-    50%{
-        transform: translateX(0%);
-    }
-    75%{
-        transform: translateX(-100%);
-    }
-    100%{
-        transform: translateX(0%);
     }
 }
