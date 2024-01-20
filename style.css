@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+body{
+    background-color: #c67b19;
+}
+.ramji{
+  background: #c67b19;
+  background: -webkit-linear-gradient(to right,#c67b19,#c67b19);
+  height: 350px;
+  max-width: 600px;
+  border-radius: 12px;
+  position: relative;
+  width: auto;
+  transition: .5s;
+  margin: 2%;
+}
+.ramji:hover{
+    height: 600px;
+}
+.ramji:hover .cont{
+    opacity: 1;
+    transform: translate(0);
+}
+.jay h3{
+    font-size: 37px;
+    color: rgb(5, 39, 27);
+    position: relative;
+    transition: 0.25;
+    cursor: pointer;
+}
+h3:hover{
+    color:rgb(57, 27, 27);
+    text-shadow: 0 0 5px rgb(9, 98, 9),
+    0 0 15px rgb(20, 152, 20),
+    0 0 30px rgb(0, 255, 0);
+
+}
+.cont{
+    position: relative;
+    width: 50%;
+    color: mintcream;
+    transform: translate(40%);
+    opacity:0 ;
+    transition: .5s;
+
+}
+.cont p{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+
+}
+.ramji img{
+    width: 250px;
+    transform: translate(65%);
+    max-height: 700;
+    position: absolute;
+    z-index: 1;
+    transition: .5s;
+    height: 280px;
+}
+.ramji:hover img{
+transform: translate(335px,-50px)scale(1.2);
+}
+
+.vid{
+    perspective: 1000px;
+    text-align: center;
+
+}
+.vi {
+    width: 100%;
+    height: auto;
+    transform: rotateX(20deg) rotateY(10deg);
+    transform-origin: center center;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+    max-width: 600px;
+    border-radius: 15px;
+}
+
+.vi:hover {
+    transform: rotateX(0deg) rotateY(0deg);
+}
+
+.countdown {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.timer {
+    text-align: center;
+    padding: 20px;
+    display: inline-block; /* Add this line to make timers appear in a single line */
+}
+
+.timer .countdown-container {
+    font-weight: bold;
+    font-size: 2rem;
+    border: 4px solid #9fc46b;
+    backdrop-filter: blur(10px);
+    margin: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+.timer .countdown-container span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(7, 255, 152);
+    display: inline-block;
+}
+
+.head h1{
+    font-size: 50px;
+    color: rgb(137, 21, 21);
+    -webkit-text-stroke:1.2px rgb(255, 255, 255);
+    animation: mark 20s linear infinite;
+    padding: 10px;
+    text-align: center;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer p{
+    margin: 0;
+}
+/*@keyframes mark{
+    0%{
+        transform: translateX(0%);
+    }
+    25%{
+        transform: translateX(100%);
+    }
+    50%{
+        transform: translateX(0%);
+    }
+    75%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
